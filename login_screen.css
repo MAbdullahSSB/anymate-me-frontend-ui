@@ -1,0 +1,284 @@
+.login_screen-container {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBF1FF;
+}
+.login_screen-headersection {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.login_screen-anymatemelogoheader {
+  width: 18.19vw;
+  margin: 3%;
+  object-fit: cover;
+}
+.login_screen-navigationbar {
+  top: 0px;
+  flex: 0;
+  right: 0px;
+  margin: 4%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.login_screen-navitemone {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.login_screen-navitemone:focus {
+  color: #3f74ff;
+}
+.login_screen-navitemone:hover {
+  color: #3f74ff;
+}
+.login_screen-navitemtwo {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.login_screen-navitemtwo:focus {
+  color: #3f74ff;
+}
+.login_screen-navitemtwo:hover {
+  color: #3f74ff;
+}
+.login_screen-navitemthree {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.login_screen-navitemthree:focus {
+  color: #3f74ff;
+}
+.login_screen-navitemthree:hover {
+  color: #3f74ff;
+}
+.login_screen-navitemfour {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.login_screen-navitemfour:focus {
+  color: #3f74ff;
+}
+.login_screen-navitemfour:hover {
+  color: #3f74ff;
+}
+.login_screen-navitemfive {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+  text-decoration: none;
+}
+.login_screen-navitemfive:focus {
+  color: #3f74ff;
+}
+.login_screen-navitemfive:hover {
+  color: #3f74ff;
+}
+.login_screen-herosection {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login_screen-herosectionimage {
+  width: 50vw;
+  height: 50vw;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  margin-left: 3%;
+  margin-right: 0%;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.login_screen-herosectionlogin {
+  flex: 0 0 auto;
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login_screen-loginsectionupperheading {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login_screen-loginsectionupper {
+  color: #373d65;
+  font-size: 2.4vw;
+  text-align: center;
+  font-family: Roboto;
+}
+.login_screen-loginsectionupperheadingtwo {
+  color: #797E8C;
+  width: 55%;
+  font-size: 1.6vw;
+  text-align: center;
+  font-family: Roboto;
+}
+.login_screen-loginsectionformone {
+  height: 20vh;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login_screen-inputemail {
+  display: inline-block;
+  font-size: 1.1vw;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.login_screen-inputpassword {
+  display: inline-block;
+  font-size: 1.1vw;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.login_screen-loginbutton {
+  color: var(--dl-color-gray-white);
+  font-size: 1.6vw;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1;
+  border-color: #3f74ff;
+  border-style: solid;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: #3F74FF;
+}
+.login_screen-loginsectionlowerheading {
+  position: relative;
+  align-items: center;
+}
+.login_screen-loginsectionlowerheadingone {
+  color: #797e8c;
+  margin: var(--dl-space-space-twounits);
+  font-size: 1.6vw;
+  text-align: center;
+  font-family: Roboto;
+}
+.login_screen-footersection {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.login_screen-anymatemelogofooter {
+  width: 8.7vw;
+  align-self: center;
+  object-fit: cover;
+}
+.login_screen-footerheadingone {
+  font-size: 1vw;
+  align-self: center;
+  font-family: Roboto;
+}
+.login_screen-socialsbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login_screen-link {
+  display: contents;
+}
+.login_screen-linkedinlogo {
+  fill: #000000;
+  width: 18px;
+  height: 18px;
+  align-self: flex-end;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .login_screen-footersection {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .login_screen-footerheadingone {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .login_screen-herosectionimage {
+    width: 50vw;
+    height: auto;
+    margin-left: 0px;
+  }
+  .login_screen-herosectionlogin {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+  }
+  .login_screen-loginsectionupperheading {
+    width: auto;
+    height: 100%;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .login_screen-loginsectionformone {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .login_screen-footersection {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .login_screen-anymatemelogofooter {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .login_screen-footerheadingone {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

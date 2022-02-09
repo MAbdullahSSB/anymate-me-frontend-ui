@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>registration_screen - Anymate-Me-Fronten</title>
+    <meta
+      property="og:title"
+      content="registration_screen - Anymate-Me-Fronten"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style>
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}
+    </style>
+    <style>
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/anymateme_logo.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="/registration.js"></script>
+    <div>
+      <link href="./registration_screen.css" rel="stylesheet" />
+
+      <div class="registration_screen-container">
+        <header id="header_section" class="registration_screen-headersection">
+          <img
+            id="anymate_me_logo_header"
+            alt="image"
+            src="public/playground_assets/anymateme_logo-cropped.svg"
+            loading="eager"
+            class="registration_screen-anymatemelogoheader"
+          />
+          <nav id="navbar" class="registration_screen-navigationbar">
+            <span id="nav_item_one" class="registration_screen-navitemone">
+              Produckt
+            </span>
+            <span id="nav_item_two" class="registration_screen-navitemtwo">
+              Features
+            </span>
+            <span id="nav_item_three" class="registration_screen-navitemthree">
+              Use Cases
+            </span>
+            <span id="nav_item_four" class="registration_screen-navitemfour">
+              Über Uns
+            </span>
+            <a
+              href="/login_screen.html"
+              id="nav_item_five"
+              class="registration_screen-navitemfive"
+            >
+              Login
+            </a>
+          </nav>
+        </header>
+        <main id="hero_section" class="registration_screen-herosection">
+          <img
+            id="hero_scection_image"
+            alt="hero_image"
+            src="https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1M3x8bW92aWV8ZW58MHx8fHwxNjQ0MTY5MTg0&amp;ixlib=rb-1.2.1&amp;w=800"
+            loading="lazy"
+            class="registration_screen-herosectionimage"
+          />
+          <div
+            id="hero_section_registration"
+            class="registration_screen-herosectionregistration"
+          >
+            <div
+              id="registration_section_upper_heading"
+              class="registration_screen-registrationsectionupperheading"
+            >
+              <span
+                id="registration_section_upper_heading_one"
+                class="registration_screen-registrationsectionupper"
+              >
+                Willkommen bei Anymate Me
+              </span>
+              <span
+                id="registration_section_upper_heading_two"
+                class="registration_screen-registrationsectionupperheadingtwo"
+              >
+                Videos zu erstellen ist schwierig? Verwandle deinen Text in ein
+                professionelles Video.
+              </span>
+            </div>
+            <div
+              id="registration_section_form_one"
+              class="registration_screen-registrationsectionformone"
+            >
+              <div id="inputs_one" class="registration_screen-inputsone">
+                <input
+                  type="text"
+                  id="input_first_name"
+                  name="first_name"
+                  required="true"
+                  autofocus="true"
+                  placeholder="Vorname"
+                  autocomplete="name"
+                  class="registration_screen-inputfirstname input"
+                />
+                <input
+                  type="text"
+                  id="input_last_name"
+                  name="last_name"
+                  required="true"
+                  placeholder="Nachname"
+                  autocomplete="off"
+                  class="registration_screen-inputlastname input"
+                />
+              </div>
+              <div id="inputs_two" class="registration_screen-inputstwo">
+                <input
+                  type="text"
+                  id="input_firmname"
+                  name="firmname"
+                  required="true"
+                  autofocus="true"
+                  placeholder="Firmenname"
+                  autocomplete="off"
+                  class="registration_screen-inputfirmname input"
+                />
+                <input
+                  type="text"
+                  id="input_branch"
+                  name="branch"
+                  required="true"
+                  placeholder="Branche"
+                  autocomplete="off"
+                  class="registration_screen-inputbranch input"
+                />
+              </div>
+              <div id="inputs_three" class="registration_screen-inputsthree">
+                <input
+                  type="email"
+                  id="input_email"
+                  name="email"
+                  required="true"
+                  autofocus="true"
+                  placeholder="Email"
+                  class="registration_screen-inputemail input"
+                />
+                <input
+                  type="tel"
+                  id="input_number"
+                  name="phone"
+                  required="true"
+                  maxlength="64"
+                  placeholder="Mobil"
+                  autocomplete="off"
+                  class="registration_screen-inputnumber input"
+                />
+              </div>
+              <div id="inputs_four" class="registration_screen-inputsfour">
+                <input
+                  type="password"
+                  id="input_password"
+                  name="password"
+                  required="true"
+                  autofocus="true"
+                  placeholder="Passwort"
+                  autocomplete="email"
+                  class="registration_screen-inputemail1 input"
+                />
+                <input
+                  type="password"
+                  id="input_r_password"
+                  name="r_password"
+                  required="true"
+                  maxlength="64"
+                  placeholder="Passwort bestätigen"
+                  class="registration_screen-inputpassword input"
+                />
+              </div>
+              <button class="registration_screen-button button" id="registration_screen_button" onclick="Register()">
+                <span>Registrieren</span>
+              </button>
+            </div>
+            <div
+              id="login_section_lower_heading"
+              class="registration_screen-loginsectionlowerheading"
+            >
+              <span
+                id="login_section_lower_heading_one"
+                class="registration_screen-loginsectionlowerheadingone"
+              >
+                <span>Du hast bereits einen Account? <a href="/login_screen.html" style="color: #3F74FF;">Login</a></span>
+                <br />
+                <span></span>
+              </span>
+            </div>
+          </div>
+        </main>
+        <footer id="footer_section" class="registration_screen-footersection">
+          <img
+            id="anymate_logo_footer"
+            alt="logo"
+            src="public/playground_assets/anymateme_logo-cropped.svg"
+            class="registration_screen-anymatemelogofooter"
+          />
+          <span
+            id="footer_heading_one"
+            class="registration_screen-footerheadingone"
+          >
+            © 2022 Anymate Me, All Rights Reserved.
+          </span>
+          <div id="socials_bar" class="registration_screen-socialsbar">
+            <a
+              href="https://www.linkedin.com/company/anymateme?trk=companies_directory"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="registration_screen-link"
+            >
+              <svg
+                id="linkedin-profile"
+                viewBox="0 0 877.7142857142857 1024"
+                class="registration_screen-linkedinlogo"
+              >
+                <path
+                  d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

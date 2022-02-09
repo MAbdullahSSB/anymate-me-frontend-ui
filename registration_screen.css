@@ -1,0 +1,380 @@
+.registration_screen-container {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBF1FF;
+}
+.registration_screen-headersection {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.registration_screen-anymatemelogoheader {
+  width: 18.19vw;
+  margin: 3%;
+  object-fit: cover;
+}
+.registration_screen-navigationbar {
+  top: 0px;
+  flex: 0;
+  right: 0px;
+  margin: 4%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.registration_screen-navitemone {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.registration_screen-navitemone:focus {
+  color: #3f74ff;
+}
+.registration_screen-navitemone:hover {
+  color: #3f74ff;
+}
+.registration_screen-navitemtwo {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.registration_screen-navitemtwo:focus {
+  color: #3f74ff;
+}
+.registration_screen-navitemtwo:hover {
+  color: #3f74ff;
+}
+.registration_screen-navitemthree {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.registration_screen-navitemthree:focus {
+  color: #3f74ff;
+}
+.registration_screen-navitemthree:hover {
+  color: #3f74ff;
+}
+.registration_screen-navitemfour {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+}
+.registration_screen-navitemfour:focus {
+  color: #3f74ff;
+}
+.registration_screen-navitemfour:hover {
+  color: #3f74ff;
+}
+.registration_screen-navitemfive {
+  color: #373d65;
+  font-size: 1.6vw;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Roboto;
+  margin-right: 4vw;
+  text-decoration: none;
+}
+.registration_screen-navitemfive:focus {
+  color: #3f74ff;
+}
+.registration_screen-navitemfive:hover {
+  color: #3f74ff;
+}
+.registration_screen-herosection {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.registration_screen-herosectionimage {
+  width: 50vw;
+  height: 50vw;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  margin-left: 3%;
+  margin-right: 0%;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.registration_screen-herosectionregistration {
+  flex: 0 0 auto;
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registration_screen-registrationsectionupperheading {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registration_screen-registrationsectionupper {
+  color: #373d65;
+  font-size: 2.4vw;
+  text-align: center;
+  font-family: Roboto;
+}
+.registration_screen-registrationsectionupperheadingtwo {
+  color: #797E8C;
+  width: 55%;
+  font-size: 1.6vw;
+  text-align: center;
+  font-family: Roboto;
+}
+.registration_screen-registrationsectionformone {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registration_screen-inputsone {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.registration_screen-inputfirstname {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputlastname {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputstwo {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.registration_screen-inputfirmname {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputbranch {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputsthree {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.registration_screen-inputemail {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputnumber {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputsfour {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.registration_screen-inputemail1 {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-inputpassword {
+  display: inline-block;
+  font-size: 1.1vw;
+  align-self: center;
+  text-align: center;
+  font-family: Roboto;
+  border-color: #aaaaaa;
+}
+.registration_screen-button {
+  color: var(--dl-color-gray-white);
+  font-size: 1.6vw;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1;
+  border-color: #3f74ff;
+  border-style: solid;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: #3F74FF;
+}
+.registration_screen-loginsectionlowerheading {
+  position: relative;
+  align-items: center;
+}
+.registration_screen-loginsectionlowerheadingone {
+  color: #797e8c;
+  margin: var(--dl-space-space-twounits);
+  font-size: 1.6vw;
+  font-family: Roboto;
+}
+.registration_screen-footersection {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.registration_screen-anymatemelogofooter {
+  width: 8.7vw;
+  align-self: center;
+  object-fit: cover;
+}
+.registration_screen-footerheadingone {
+  font-size: 1vw;
+  align-self: center;
+  font-family: Roboto;
+}
+.registration_screen-socialsbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.registration_screen-link {
+  display: contents;
+}
+.registration_screen-linkedinlogo {
+  fill: #000000;
+  width: 18px;
+  height: 18px;
+  align-self: flex-end;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .registration_screen-footersection {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .registration_screen-footerheadingone {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .registration_screen-herosectionimage {
+    width: 45vw;
+    height: auto;
+    margin-left: 0px;
+  }
+  .registration_screen-herosectionregistration {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+  }
+  .registration_screen-registrationsectionupperheading {
+    width: auto;
+    height: 100%;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .registration_screen-registrationsectionformone {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .registration_screen-inputsone {
+    width: 95%;
+  }
+  .registration_screen-inputstwo {
+    width: 95%;
+  }
+  .registration_screen-inputsthree {
+    width: 95%;
+  }
+  .registration_screen-inputsfour {
+    width: 95%;
+  }
+  .registration_screen-loginsectionlowerheading {
+    align-self: center;
+  }
+  .registration_screen-loginsectionlowerheadingone {
+    margin: var(--dl-space-space-halfunit);
+  }
+  .registration_screen-footersection {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .registration_screen-anymatemelogofooter {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .registration_screen-footerheadingone {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
